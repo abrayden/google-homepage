@@ -1,0 +1,48 @@
+#left-nav #right-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px
+}
+a {
+    text-decoration: none;
+    
+}
+nav {
+    list-style: none;
+    display: block;
+    
+}
+nav li {
+    display: inline-block;
+    
+}
+
+#left-nav {
+    float: left;
+    
+}
+#right-nav{
+    float: right;
+}
+img {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.searchBar {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 25px;
+}
+.buttons {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

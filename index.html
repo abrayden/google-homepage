@@ -2,10 +2,10 @@
 <html>
 <head>
 <title>Google</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<head>
-    <div id="header">
+<header>
         <div id="left-nav">  
             <nav>
                 <li><a href="default.asp">About</a></li>
@@ -18,14 +18,18 @@
                 <li><a href="news.asp">Images</a></li>
             </nav>
         </div>
-    </div>
-    
-</head>
+</header>
 <main>
-    <input type="text" placeholder=" ">
+    <div id="parentSearch">
+    <input class="searchBar"  type="text" placeholder=" ">
+    </div>
+    <div id="imageContainer">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt ="Google image">
-    <button>Google Search</button>
-    <button>I'm Feeling Lucky</button>
+    </div> 
+    <div class="buttons">
+        <button id="search">Google Search</button>
+        <button id="lucky">I'm Feeling Lucky</button>
+    </div>    
 </main>
 
 
